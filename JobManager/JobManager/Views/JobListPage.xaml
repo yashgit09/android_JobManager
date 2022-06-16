@@ -32,7 +32,7 @@
                         <ListView.Behaviors>
                             <xct:EventToCommandBehavior 
                                  EventName="ItemSelected"                               
-                                 Command="{Binding SelectCommand}"
+                                 Command="{Binding SelectedCommand}"
                                  EventArgsConverter="{StaticResource ItemSelectedEventArgsConverter}">
 
                             </xct:EventToCommandBehavior>
